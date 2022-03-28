@@ -4,7 +4,7 @@ html {
 .parallax {
   /* Set a specific height */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/img/feature/bg-1.jpg);
+    url(https://sodia.agency/assets/img/feature/bg-1.jpg);
   min-height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
