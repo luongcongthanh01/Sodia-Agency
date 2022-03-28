@@ -12,6 +12,7 @@ body {
   font-size: 15px;
   font-weight: 300px;
   position: relative;
+  z-index: 1;
 }
 .container {
   max-width: 1200px;

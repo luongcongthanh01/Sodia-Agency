@@ -76,6 +76,8 @@
   color: var(--2nd);
 }
 .feature {
+  position: relative;
+  z-index: 100;
   height: 100vh;
   background-color: #000000;
 }
@@ -85,6 +87,7 @@
   background-color: var(--2nd-light);
 }
 .fixed {
+  z-index: 0;
   position: fixed;
 }
 .black {
