@@ -62,6 +62,12 @@
 .hero_title2 span {
   font-weight: 900;
 }
+.btn-primary {
+  color: #fff;
+  background-color: var(--3rd-light);
+  border-color: var(--3rd-light);
+}
+
 .hero_subtitle {
   color: var(--2nd-light);
   font-size: 15px;

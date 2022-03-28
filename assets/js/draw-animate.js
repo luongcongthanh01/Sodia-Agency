@@ -27,9 +27,3 @@ function myFunction() {
 function myFunction(x) {
   x.classList.toggle("change");
 }
-// mouseleave
-$(document).ready(function () {
-  $("html").mouseleave(function () {
-    alert("Bye! Hẹn gặp lại!");
-  });
-});
