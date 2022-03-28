@@ -1,0 +1,93 @@
+.container-fluid {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+.header {
+}
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.nav-btn a {
+  color: var(--2nd-light);
+}
+/* .menu {
+  padding-left: 60%;
+} */
+.bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.menu-link {
+  color: var(--2nd);
+}
+/* Hero */
+.hero {
+  position: relative;
+  height: 100vh;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  display: inline-flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-text .hero_title1,
+.hero_title2,
+.hero_subtitle {
+  line-height: 64px;
+}
+.hero_title1 {
+  color: var(--2nd);
+  font-size: 30px;
+  font-weight: 400;
+}
+.hero_title1 span {
+  font-weight: 900;
+}
+.hero_title2 {
+  color: var(--2nd);
+  font-size: 50px;
+  font-weight: 500;
+}
+.hero_title2 span {
+  font-weight: 900;
+}
+.hero_subtitle {
+  color: var(--2nd-light);
+  font-size: 15px;
+}
+.lang {
+  color: var(--2nd);
+}
+.feature {
+  height: 100vh;
+  background-color: #000000;
+}
+.feature-2 {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--2nd-light);
+}
+.fixed {
+  position: fixed;
+}
+.black {
+  background-color: var(--3rd-light);
+  height: 100vh;
+}
+.white {
+  background-color: #fff;
+}
+.blue {
+  background-color: blue;
+}
