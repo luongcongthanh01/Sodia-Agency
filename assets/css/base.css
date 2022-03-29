@@ -23,8 +23,35 @@ a {
   text-decoration: none;
   list-style: none;
 }
-img,
-/* svg {
-  width: 10%;
-  background-color: #ffffff;
-} */
+.title1 {
+  color: #ffffff;
+  max-width: 50%;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  top: 50px;
+  left: 300px;
+  line-height: 70px;
+}
+.title1 h2 {
+  font-size: 60px;
+  font-weight: 800;
+}
+.title1 span {
+  font-size: 70px;
+  font-weight: 900;
+}
+.sub1 {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  max-width: 50%;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  top: 120px;
+  left: 30%;
+  line-height: 40px;
+}
