@@ -3,13 +3,13 @@
   padding-right: 0;
   padding-left: 0;
 }
-.nav {
+/* .nav {
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-}
+} */
 .nav-btn a {
   color: var(--2nd-light);
 }
