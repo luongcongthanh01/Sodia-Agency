@@ -44,3 +44,32 @@ html {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
 }
+.cloud {
+  position: relative;
+  background: #fff;
+}
+.section-cloud {
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  grid: 100vh / 1fr;
+  place-items: center;
+}
+
+.section-cloud h1 {
+  position: absolute;
+  font: 10vmin/0.8 "Libre Franklin";
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  color: #fff4;
+  text-shadow: 0 0 5px #fff;
+  mix-blend-mode: overlay;
+}
+
+.section-cloud svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}

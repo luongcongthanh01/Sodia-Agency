@@ -81,6 +81,7 @@
   background-color: #000000;
 }
 .feature-2 {
+  position: relative;
   width: 100%;
   height: 100vh;
   background-color: var(--2nd-light);
