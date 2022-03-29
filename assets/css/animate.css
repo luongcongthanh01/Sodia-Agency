@@ -13,15 +13,15 @@ html {
   background-size: cover;
 }
 /* draw */
-#mySVG {
+/* #mySVG {
   position: fixed;
   top: 15%;
   width: 400px;
   height: 210px;
   margin-left: -50px;
-}
+} */
 /* menu btn */
-.bar1,
+/* .bar1,
 .bar2,
 .bar3 {
   width: 35px;
@@ -29,9 +29,9 @@ html {
   background-color: var(--2nd-light);
   margin: 6px 0;
   transition: 0.4s;
-}
+} */
 
-.change .bar1 {
+/* .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-9px, 6px);
 }
@@ -43,7 +43,7 @@ html {
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
-}
+} */
 .cloud {
   position: relative;
   background: #fff;
