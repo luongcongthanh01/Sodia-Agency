@@ -49,6 +49,7 @@ html {
   background: #fff;
 }
 .section-cloud {
+  background: #fff;
   position: relative;
   min-height: 100vh;
   display: grid;

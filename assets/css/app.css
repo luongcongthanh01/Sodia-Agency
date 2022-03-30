@@ -93,8 +93,34 @@
   height: 100vh;
 }
 .white {
-  background-color: #fff;
 }
 .blue {
   background-color: blue;
+}
+.sticky {
+  position: sticky;
+}
+.sticky-out {
+  position: inherit;
+}
+.img-ser {
+  z-index: 10;
+  background-image: url(/assets/img/feature/ser1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-ser-2 {
+  z-index: 10;
+  background-image: url(/assets/img/feature/ser2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-ser3 {
+  z-index: 10;
+  background-image: url(/assets/img/feature/ser3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
